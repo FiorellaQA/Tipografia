@@ -1,0 +1,72 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h2{
+	font-family: 'Playfair Display', serif;
+}
+h5, p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+}
+span{
+	font-size: 40px;
+	color: #f18194;
+}
+
+.contenedor{
+	padding-top: 10%;
+	display:flex;
+	justify-content: center;
+}
+.box{
+	width: 220px;
+/*    height: 270px;*/
+    box-shadow: 8px 10px 14px -8px #CECECE;
+    float: left;
+    text-align: center;
+    background-color: #F4F1F1;
+    padding: 30px 8px 1px 8px;
+    margin: 5px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.box:hover{
+	padding-top: 20px;
+	color:#F5E9E2;
+	background-color: #f18194;
+	-webkit-transform:scale(1.1);
+	-webkit-transition: all 0.7s ease-in-out;
+}
+
+.box:hover .paperPlane{
+	transition: 0.8s;
+    color: #9FC1E6;
+}
+
+.box:hover .diamond {
+	transition: 0.8s;
+    color: #F2EC7C;
+}
+
+.box:hover .heart{
+	transition: 0.8s;
+    color: #DDD9F3;
+}
+
+.box:hover .cafe {
+	transition: 0.8s;
+    color: #3D473A;
+}
+
+.box:hover .food {
+	transition: 0.8s;
+    color: #3D473A;
+}
+
+
+
